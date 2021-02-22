@@ -40,7 +40,7 @@ h1 {
     padding: 10px 25px 10px 25px;
     border-radius: 10px;
     background: #009688;
-    color: #fff;
+    color: #eae4f2;
     display: inline-block;
     box-shadow: 2px 2px 1px 0px #295C7B;
 }
@@ -76,14 +76,7 @@ h1 {
     font-family: 'Roboto', sans-serif;
     font-size: 1.2em;
 }
-.greet{
-if (hrs < 12)
-        greet = 'Good Morning NAJA  ';
-    else if (hrs >= 12 && hrs <= 17)
-        greet = 'Good Afternoon NAJA ';
-    else if (hrs >= 17 && hrs <= 24)
-        greet = 'Good Evening NAJA ';
-    
+.greet{  
     min-width: 162px;
     /* padding-right: 30px; */
     font-family: 'Roboto', sans-serif;
@@ -133,11 +126,11 @@ else{
 }
 hrs = today.getHours();
 if (hrs < 12)
-        greet = 'Good Morning  ';
+        greet = 'Good Morning Naja ';
     else if (hrs >= 12 && hrs <= 17)
-        greet = 'Good Afternoon ';
+        greet = 'Good Afternoon Naja ';
     else if (hrs >= 17 && hrs <= 24)
-        greet = 'Good Evening  ';
+        greet = 'Good Evening Naja ';
 // console.log(today.toLocaleTimeString());
 document.getElementById('greet').innerHTML = greet;
 document.getElementById('hour').innerHTML = hour;
